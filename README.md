@@ -6,7 +6,7 @@ local Window = Rayfield:CreateWindow({
     LoadingTitle = "Birdhub",
     LoadingSubtitle = "by Trem2goated",
     ConfigurationSaving = {
-       Enabled = true,
+       Enabled = false,
        FolderName = nil, -- Create a custom folder for your hub/game
        FileName = "Bird Hub"
     },
